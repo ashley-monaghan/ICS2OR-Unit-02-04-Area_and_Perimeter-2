@@ -22,14 +22,14 @@
 }
 
 body {
-  background-color: #a082f2;
+  background-color: #f3c5f3;
 }
 
-#right-image {
+/* #right-image {
   position: absolute;
   right: 0%;
   margin: 10px;
-}
+} */
 
 p {
   color: #ac6ce4;
