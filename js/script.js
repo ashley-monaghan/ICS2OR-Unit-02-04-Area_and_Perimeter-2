@@ -15,7 +15,7 @@ function calculate() {
 
   // process
   const area = (a * b) / 2
-  const perimeter = a + (b * 2)
+  const perimeter = a + b * 2
 
   // output
   document.getElementById("area").innerHTML = "Area is: " + area + " cm²"
