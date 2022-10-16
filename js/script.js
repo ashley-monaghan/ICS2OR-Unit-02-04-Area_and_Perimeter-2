@@ -10,12 +10,12 @@
  */
 function calculate() {
   // input
-  const length = parseInt(document.getElementById("length-of-rectangle").value)
-  const width = parseInt(document.getElementById("width-of-rectangle").value)
+  const a = parseInt(document.getElementById("side-a-of-rectangle").value)
+  const b = parseInt(document.getElementById("side-b-of-rectangle").value)
 
   // process
-  const area = (length * width) / 2
-  const perimeter = 3 * length
+  const area = (a * b) / 2
+  const perimeter = a + (b * 2)
 
   // output
   document.getElementById("area").innerHTML = "Area is: " + area + " cm²"
