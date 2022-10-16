@@ -14,8 +14,8 @@ function calculate() {
   const b = parseInt(document.getElementById("side-b-of-rectangle").value)
 
   // process
-  const area = (a * b) / 2
-  const perimeter = a + b * 2
+  const area = (b / h) / 2
+  const perimeter = (2 * a) + b
 
   // output
   document.getElementById("area").innerHTML = "Area is: " + area + " cm²"

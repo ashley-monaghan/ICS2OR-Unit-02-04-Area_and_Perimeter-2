@@ -44,8 +44,8 @@
             </th>
             <th>
               <h2>Formulas:</h2>
-              <h3>A = (A x B) ÷ 2</h3>
-              <h3>P = A + (B x 2)</h3>
+              <h3>A = (b x h) ÷ 2</h3>
+              <h3>P = (2 * a) + b) </h3>
             </th>
           </tr>
         </table>
@@ -77,6 +77,23 @@
             />
             <label class="mdl-textfield__label" for="side-b-of-rectangle"
               >Side B ...</label
+            >
+            <span class="mdl-textfield__error">Input is not a number!</span>
+          </div>
+        </form>
+        <br />
+        <!-- Numeric Textfield -->
+        <form action="#">
+          <p>Side H</p>
+          <div class="mdl-textfield mdl-js-textfield">
+            <input
+              class="mdl-textfield__input"
+              type="text"
+              pattern="-?[0-9]*(\.[0-9]+)?"
+              id="side-b-of-rectangle"
+            />
+            <label class="mdl-textfield__label" for="side-h-of-rectangle"
+              >Side H ...</label
             >
             <span class="mdl-textfield__error">Input is not a number!</span>
           </div>
