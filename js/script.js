@@ -14,7 +14,7 @@ function calculate() {
   const base = parseInt(document.getElementById("base-of-rectangle").value)
 
   // process
-  const area = (base * height) / 2
+  const area = 2 / (base * height)
 
   // output
   document.getElementById("area").innerHTML = "Area is: " + area + " cm²"
