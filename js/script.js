@@ -10,16 +10,12 @@
  */
 function calculate() {
   // input
-  const a = parseInt(document.getElementById("side-a-of-rectangle").value)
-  const b = parseInt(document.getElementById("side-b-of-rectangle").value)
-  const h = parseInt(document.getElementById("side-h-of-rectangle").value)
+  const height = parseInt(document.getElementById("height-of-rectangle").value)
+  const base = parseInt(document.getElementById("base-of-rectangle").value)
 
   // process
   const area = (b * h) / 2
-  const perimeter = 2 * a + b
 
   // output
   document.getElementById("area").innerHTML = "Area is: " + area + " cm²"
-  document.getElementById("perimeter").innerHTML =
-    "Perimeter is: " + perimeter + " cm"
 }
