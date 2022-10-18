@@ -25,12 +25,6 @@ body {
   background-color: #e3e1f8;
 }
 
-triangle-picture {
-  display: block;
-  width: 50%;
-  height: 40%;
-}
-
 p {
   color: #ac6ce4;
   font-family: Helvetica, Arial, sans-serif;
