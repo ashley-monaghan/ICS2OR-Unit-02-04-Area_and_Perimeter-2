@@ -26,9 +26,9 @@ body {
 }
 
 #triangle-picture {
-  position: absolute;
-  right: 0%;
-  margin: 10px;
+  display: block;
+  width: 50%;
+  height: 40%;
 }
 
 p {
